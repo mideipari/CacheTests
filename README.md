@@ -1,8 +1,8 @@
-#Connor Deiparine
+# Connor Deiparine
 
 I use google test to unit test the caches. I have 8 separate unit tests.
 
-#Test Descriptions:
+# Test Descriptions:
 
 InitialSizeTest: Tests to make sure cache is initialized to size 0.
 
@@ -20,7 +20,7 @@ FIFOWorks: Tests to see if FIFO evictor works as expected
 
 FFiftyInsertsandDeleteFIFO: Same as before but tests it with FIFO evictor. 
 
-#Part 1:
+# Part 1:
 
 Output:
 ```
@@ -81,9 +81,9 @@ Output:
 [  PASSED  ] 8 tests.
 ```
 
-#Part 2
+# Part 2
 
-##Eric and Vinay Test Results:
+## Eric and Vinay Test Results:
 ```
 [==========] Running 8 tests from 3 test suites.
 [----------] Global test environment set-up.
@@ -127,7 +127,7 @@ Expected: true
  
 Everything seems to work for this group except for their space_used updating when the FIFO evictor works. Also the class name for the Fifo evictor seems to be modified from FifoEvictor to Fifo.
 
-##Hien and David Test Results:
+## Hien and David Test Results:
 ```[==========] Running 8 tests from 3 test suites.
 [----------] Global test environment set-up.
 [----------] 2 tests from CacheNoEvicition
